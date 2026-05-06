@@ -75,41 +75,41 @@
 - [ ] `src/__tests__/pbt/guards.pbt.spec.ts` — fast-check 임의 인증 상태 + 라우트 조합
 
 ### Step 10: 공통 컴포넌트 생성
-- [ ] `src/components/common/LoadingSpinner.vue`
-- [ ] `src/components/common/ErrorMessage.vue`
-- [ ] `src/components/common/EmptyState.vue`
-- [ ] `src/components/common/ConfirmDialog.vue`
-- [ ] `src/components/common/ToastNotification.vue`
-- [ ] `src/components/common/ErrorBoundary.vue`
+- [x] `src/components/common/LoadingSpinner.vue`
+- [x] `src/components/common/ErrorMessage.vue`
+- [x] `src/components/common/EmptyState.vue`
+- [x] `src/components/common/ConfirmDialog.vue`
+- [x] `src/components/common/ToastNotification.vue`
+- [x] `src/components/common/ErrorBoundary.vue`
 
 ### Step 11: 레이아웃 컴포넌트 생성
-- [ ] `src/components/layout/AppLayout.vue` — 인증된 상태 레이아웃
-- [ ] `src/components/layout/AppHeader.vue` — 상단 헤더 + 햄버거
-- [ ] `src/components/layout/SideDrawer.vue` — 사이드 네비게이션
-- [ ] `src/components/layout/CartBottomSheet.vue` — 장바구니 하단 시트
+- [x] `src/components/layout/AppLayout.vue` — 인증된 상태 레이아웃
+- [x] `src/components/layout/AppHeader.vue` — 상단 헤더 + 햄버거
+- [x] `src/components/layout/SideDrawer.vue` — 사이드 네비게이션
+- [x] `src/components/layout/CartBottomSheet.vue` — 장바구니 하단 시트
 
 ### Step 12: 메뉴 컴포넌트 생성
-- [ ] `src/components/menu/CategoryTabs.vue` — 카테고리 탭
-- [ ] `src/components/menu/MenuCard.vue` — 메뉴 카드
-- [ ] `src/components/menu/MenuDetailModal.vue` — 메뉴 상세 모달
+- [x] `src/components/menu/CategoryTabs.vue` — 카테고리 탭
+- [x] `src/components/menu/MenuCard.vue` — 메뉴 카드
+- [x] `src/components/menu/MenuDetailModal.vue` — 메뉴 상세 모달
 
 ### Step 13: 장바구니/주문 컴포넌트 생성
-- [ ] `src/components/cart/CartItem.vue` — 장바구니 항목
-- [ ] `src/components/cart/CartSummary.vue` — 장바구니 요약
-- [ ] `src/components/order/OrderCard.vue` — 주문 카드
-- [ ] `src/components/order/OrderStatusBadge.vue` — 상태 배지
+- [x] `src/components/cart/CartItem.vue` — 장바구니 항목
+- [x] `src/components/cart/CartSummary.vue` — 장바구니 요약
+- [x] `src/components/order/OrderCard.vue` — 주문 카드
+- [x] `src/components/order/OrderStatusBadge.vue` — 상태 배지
 
 ### Step 14: 뷰(페이지) 생성
-- [ ] `src/views/SetupView.vue` — 태블릿 초기 설정 (US-1.1, US-1.5)
-- [ ] `src/views/MenuView.vue` — 메뉴 조회 (US-2.1~2.5, US-3.1)
-- [ ] `src/views/OrderConfirmView.vue` — 주문 확인 (US-4.1~4.2)
-- [ ] `src/views/OrderSuccessView.vue` — 주문 성공 (US-4.3)
-- [ ] `src/views/OrderHistoryView.vue` — 주문 내역 (US-5.1~5.4)
+- [x] `src/views/SetupView.vue` — 태블릿 초기 설정 (US-1.1, US-1.5)
+- [x] `src/views/MenuView.vue` — 메뉴 조회 (US-2.1~2.5, US-3.1)
+- [x] `src/views/OrderConfirmView.vue` — 주문 확인 (US-4.1~4.2)
+- [x] `src/views/OrderSuccessView.vue` — 주문 성공 (US-4.3)
+- [x] `src/views/OrderHistoryView.vue` — 주문 내역 (US-5.1~5.4)
 
 ### Step 15: 앱 엔트리포인트 및 루트 컴포넌트
-- [ ] `src/main.ts` — 앱 초기화 (Pinia, Router, Tailwind)
-- [ ] `src/App.vue` — 루트 컴포넌트 (앱 초기화 로직, SSE 연결)
-- [ ] `src/assets/main.css` — Tailwind 디렉티브 + 글로벌 스타일
+- [x] `src/main.ts` — 앱 초기화 (Pinia, Router, Tailwind)
+- [x] `src/App.vue` — 루트 컴포넌트 (앱 초기화 로직, SSE 연결)
+- [x] `src/assets/main.css` — Tailwind 디렉티브 + 글로벌 스타일
 
 ### Step 16: 컴포넌트 단위 테스트
 - [ ] `src/__tests__/components/MenuCard.spec.ts`
@@ -121,9 +121,9 @@
 - [ ] `src/__tests__/pbt/api-parsing.pbt.spec.ts` — fast-check 임의 JSON 응답 안전 파싱
 
 ### Step 18: 배포 아티팩트 생성
-- [ ] `frontend/customer/Dockerfile` — 멀티스테이지 빌드 (Node → Nginx)
-- [ ] `frontend/customer/nginx.conf` — SPA 라우팅, gzip, 보안 헤더, API 프록시
-- [ ] `frontend/customer/.dockerignore`
+- [x] `frontend/customer/Dockerfile` — 멀티스테이지 빌드 (Node → Nginx)
+- [x] `frontend/customer/nginx.conf` — SPA 라우팅, gzip, 보안 헤더, API 프록시
+- [x] `frontend/customer/.dockerignore`
 
 ### Step 19: 문서 생성
 - [ ] `aidlc-docs/construction/customer-app/code/code-generation-summary.md` — 생성된 파일 목록, 스토리 매핑
