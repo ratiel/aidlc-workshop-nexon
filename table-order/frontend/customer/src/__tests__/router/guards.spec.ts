@@ -4,7 +4,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import { setupGuards } from '@/router/guards'
 import { useAuthStore } from '@/stores/auth'
 import { useCartStore } from '@/stores/cart'
-import { useOrderStore } from '@/stores/order'
 import { defineComponent } from 'vue'
 
 const Stub = defineComponent({ template: '<div />' })

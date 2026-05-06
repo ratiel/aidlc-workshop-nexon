@@ -1,7 +1,6 @@
 import { describe, it, expect, beforeEach } from 'vitest'
 import { setActivePinia, createPinia } from 'pinia'
 import { useOrderStore } from '@/stores/order'
-import type { Order } from '@/types/order'
 
 describe('useOrderStore', () => {
   beforeEach(() => {

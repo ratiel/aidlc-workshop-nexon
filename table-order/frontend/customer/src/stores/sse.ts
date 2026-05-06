@@ -4,8 +4,6 @@ import type { SSEEvent } from '@/types/sse'
 import { sseManager, type SSEConnectionStatus } from '@/services/sseService'
 import { useOrderStore } from './order'
 import { useCartStore } from './cart'
-import { useAuthStore } from './auth'
-import { useRouter } from 'vue-router'
 
 export const useSSEStore = defineStore('sse', () => {
   const connectionStatus = ref<SSEConnectionStatus>('disconnected')
@@ -37,7 +35,6 @@ export const useSSEStore = defineStore('sse', () => {
 
   function handleEvent(event: SSEEvent): void {
     const orderStore = useOrderStore()
-    const cartStore = useCartStore()
 
     switch (event.type) {
       case 'order_status_changed':
