@@ -4,6 +4,7 @@
 - **Project Name**: 테이블오더 서비스 (Table Order Service)
 - **Project Type**: Greenfield
 - **Start Date**: 2026-05-06T00:00:00Z
+- **Current Stage**: INCEPTION - Workflow Planning (Unit 3: Admin App)
 - **Current Stage**: CONSTRUCTION - Customer App - Workflow Planning
 
 ## Workspace State
