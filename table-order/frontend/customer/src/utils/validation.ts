@@ -8,16 +8,17 @@ export function sanitizeInput(input: string): string {
 /**
  * Validate table number (positive integer, 1-999)
  */
-export function validateTableNumber(input: string): number | null {
-  const num = parseInt(input, 10)
+export function validateTableNumber(input: string | number): number | null {
+  const num = typeof input === 'number' ? input : parseInt(input, 10)
   if (isNaN(num) || num < 1 || num > 999) return null
   return num
 }
 
 /**
- * Check if a string is non-empty after trimming
+ * Check if a value is non-empty (works with strings and numbers)
  */
-export function isNonEmpty(value: string): boolean {
+export function isNonEmpty(value: string | number): boolean {
+  if (typeof value === 'number') return !isNaN(value)
   return value.trim().length > 0
 }
 

@@ -9,7 +9,7 @@ const router = useRouter()
 const authStore = useAuthStore()
 
 const storeId = ref('')
-const tableNumber = ref('')
+const tableNumber = ref<string | number>('')
 const password = ref('')
 const isLoading = ref(false)
 const errorMessage = ref('')
