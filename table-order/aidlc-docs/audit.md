@@ -87,3 +87,19 @@
 **Context**: Workflow Planning for Unit 3 complete. Awaiting user approval.
 
 ---
+
+## INCEPTION - Workflow Planning (Unit 3: Admin App) — Approval
+**Timestamp**: 2026-05-06T00:16:00Z
+**User Input**: "Approve & Continue"
+**AI Response**: Workflow Planning approved. Proceeding to Functional Design for Unit 3 (Admin App).
+**Context**: Execution plan approved. Starting Construction Phase — Functional Design for Admin App.
+
+---
+
+## CONSTRUCTION - Functional Design (Unit 3: Admin App) — Complete
+**Timestamp**: 2026-05-06T00:18:00Z
+**User Input**: "완료" (answers: B, C, C, B, B)
+**AI Response**: Functional design artifacts generated for Admin App. 4 documents created: business-logic-model.md, domain-entities.md, business-rules.md, frontend-components.md. Key decisions: 3 order previews per card, confirm popup only for COMPLETED transition, highlight until clicked, sort by latest order time, responsive 768px+.
+**Context**: Functional Design for Unit 3 (Admin App) complete. Awaiting user approval.
+
+---
