@@ -4,7 +4,7 @@
 - **Project Name**: 테이블오더 서비스 (Table Order Service)
 - **Project Type**: Greenfield
 - **Start Date**: 2026-05-06T00:00:00Z
-- **Current Stage**: INCEPTION - Workspace Detection
+- **Current Stage**: CONSTRUCTION - Customer App - Workflow Planning
 
 ## Workspace State
 - **Existing Code**: No
@@ -42,3 +42,14 @@
 | Workflow Planning | SKIPPED | User directed to Units Generation directly |
 | Application Design | SKIPPED | Merged into Units Generation |
 | Units Generation | COMPLETED | 3 units: Backend API, Customer App, Admin App |
+
+## Current Unit: Customer App (Unit 2)
+| Stage | Status | Notes |
+|-------|--------|-------|
+| Workflow Planning | COMPLETED | Execution plan approved |
+| Functional Design | COMPLETED | 4 artifacts generated |
+| NFR Requirements | COMPLETED | 2 artifacts generated |
+| NFR Design | COMPLETED | 2 artifacts generated |
+| Infrastructure Design | SKIP | Simple Nginx Docker, no design needed |
+| Code Generation | IN PROGRESS | Part 1 (Planning) complete |
+| Build and Test | PENDING | EXECUTE |
