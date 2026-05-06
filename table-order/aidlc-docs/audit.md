@@ -103,3 +103,11 @@
 **Context**: Functional Design for Unit 3 (Admin App) complete. Awaiting user approval.
 
 ---
+
+## CONSTRUCTION - Functional Design (Unit 3: Admin App) — Approval
+**Timestamp**: 2026-05-06T00:20:00Z
+**User Input**: "이후 단계에서 정의하는 것으로" + "Code Generation 단계 진행"
+**AI Response**: Functional Design approved. API request body types deferred to Code Generation. Proceeding to Code Generation Part 1 (Planning) for Admin App.
+**Context**: Functional Design approved. Starting Code Generation for Unit 3 (Admin App).
+
+---
