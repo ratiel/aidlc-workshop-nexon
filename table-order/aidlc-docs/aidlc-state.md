@@ -51,5 +51,5 @@
 | NFR Requirements | COMPLETED | 2 artifacts generated |
 | NFR Design | COMPLETED | 2 artifacts generated |
 | Infrastructure Design | SKIP | Simple Nginx Docker, no design needed |
-| Code Generation | PENDING | EXECUTE |
+| Code Generation | IN PROGRESS | Part 1 (Planning) complete |
 | Build and Test | PENDING | EXECUTE |
